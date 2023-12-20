@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+## Router 세팅
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. `yarn add react-router-dom`
+2. `yarn add --dev @types/react-router/dom`
+3. `Routes.tsx` 생성 및 `Route, Routes, Navigate` import
+4. 페이지 생성
+5. `tsconfig.json`에서 baseUrl, paths 세팅 (pages, components)
+6. 각 페이지 Route 연결
+7. `App.tsx`에서 `Routes.tsx` import
 
-## Available Scripts
+## Firebase 세팅
 
-In the project directory, you can run:
+1. 아래 경로에서 `프로젝트 추가`
 
-### `npm start`
+    https://console.firebase.google.com/?hl=ko&_gl=1*1492ss7*_ga*ODk3MDY3NjU2LjE3MDI0NDU3MTc.*_ga_CW55HF8NVT*MTcwMzA1Mzk3MC4yLjAuMTcwMzA1Mzk3MC42MC4wLjA.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. `앱 추가` -> `웹`
+3. `yarn add firebase`
+4. `.gitignore`에 `.env` 추가 후 root 경로에 `.env` 환경변수 세팅 파일 생성
+5. `firebaseApp.tsx` 생성
+6. `initializeApp`, `getFireStore` 호출 -> export
+7. `App.tsx`와 `Router.tsx`에서 권한 세팅
