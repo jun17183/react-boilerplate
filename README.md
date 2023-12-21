@@ -7,6 +7,7 @@
 5. `tsconfig.json`에서 baseUrl, paths 세팅 (pages, components)
 6. 각 페이지 Route 연결
 7. `App.tsx`에서 `Routes.tsx` import
+8. `index.tsx`에서 `Router`로  `App` 컴포넌트 감싸기
 
 ## Firebase 세팅
 
@@ -20,3 +21,13 @@
 5. `firebaseApp.tsx` 생성
 6. `initializeApp`, `getFireStore` 호출 -> export
 7. `App.tsx`와 `Router.tsx`에서 권한 세팅
+
+## AuthContext 세팅
+
+1. `AuthContext.tsx` 생성
+2. `index.tsx`에서 컴포넌트 감싸기
+
+## Toast 세팅
+
+1. `yarn add react-toastify`
+2. `App.tsx`에서 react-toastify import, 적용
