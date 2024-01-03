@@ -4,8 +4,8 @@
 2. `yarn add --dev @types/react-router/dom`
 3. `Routes.tsx` 생성 및 `Route, Routes, Navigate` import
 4. 페이지 생성
-5. `tsconfig.json`에서 baseUrl, paths 세팅 (pages, components)
-6. 각 페이지 Route 연결
+5. `tsconfig.json`에서 **baseUrl**, **paths** 세팅 (**pages**, **components**)
+6. 각 페이지 **Route** 연결
 7. `App.tsx`에서 `Routes.tsx` import
 8. `index.tsx`에서 `Router`로  `App` 컴포넌트 감싸기
 
@@ -17,7 +17,7 @@
 
 2. `앱 추가` -> `웹`
 3. `yarn add firebase`
-4. `.gitignore`에 `.env` 추가 후 root 경로에 `.env` 환경변수 세팅 파일 생성
+4. `.gitignore`에 `.env` 추가 후 **root** 경로에 `.env` 환경변수 세팅 파일 생성
 5. `firebaseApp.tsx` 생성
 6. `initializeApp`, `getFireStore` 호출 -> export
 7. `App.tsx`와 `Router.tsx`에서 권한 세팅
@@ -30,4 +30,4 @@
 ## Toast 세팅
 
 1. `yarn add react-toastify`
-2. `App.tsx`에서 react-toastify import, 적용
+2. `App.tsx`에서 **react-toastify** import, 적용
