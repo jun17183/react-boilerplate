@@ -62,3 +62,14 @@ content: [
 ```
 
 5. tailwind 클래스 코드 작성
+
+<br />
+
+## vscode git 연동
+
+1. git repository 생성
+2. git url 복사
+3. 존재하는 repository를 받아온 경우 git pull origin main --allow-unrelated-histories
+4. git remote add origin ${git url}
+5. commit (메시지 작성 필수)
+6. push
