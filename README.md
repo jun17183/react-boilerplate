@@ -1,3 +1,6 @@
+## create-react-app
+0. `yarn create-react-app {app_name} --template typescript`
+
 ## Router 세팅
 
 1. `yarn add react-router-dom`
