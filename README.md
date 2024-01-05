@@ -4,7 +4,7 @@
 ## Router
 
 1. `yarn add react-router-dom`
-2. `yarn add --dev @types/react-router/dom`
+2. `yarn add --dev @types/react-router-dom`
 3. `Routes.tsx` 생성 및 `Route, Routes, Navigate` import
 4. 페이지 생성
 5. `tsconfig.json`에서 **baseUrl**, **paths** 세팅 **(pages, components)**
